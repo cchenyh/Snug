@@ -21,13 +21,22 @@
             android:textSize="18dp"/>
 
         <Button
-            android:id="@+id/chongwuxunlian"
+            android:id="@+id/quanbulvcheng"
             android:layout_gravity="center"
             android:layout_width="200dp"
             android:layout_height="60dp"
             android:layout_marginTop="30dp"
             android:textSize="18dp"
-            android:text="个人中心"/>
+            android:text="全部旅程"/>
+
+        <Button
+            android:id="@+id/shujufenxi"
+            android:layout_gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:textSize="18dp"
+            android:text="数据分析"/>
 
     </LinearLayout>
 

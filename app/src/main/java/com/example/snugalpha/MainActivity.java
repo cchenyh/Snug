@@ -9,7 +9,8 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     private Button renwuliebiao;
-    private Button chongwuxunlian;
+    private Button quanbulvcheng;
+    private Button shujufensxi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,11 +26,20 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        chongwuxunlian = findViewById(R.id.chongwuxunlian);
-        chongwuxunlian.setOnClickListener(new View.OnClickListener() {
+        quanbulvcheng = findViewById(R.id.quanbulvcheng);
+        quanbulvcheng.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this,AllTripActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        shujufensxi= findViewById(R.id.shujufenxi);
+        shujufensxi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this,ConclusionActivity.class);
                 startActivity(intent);
             }
         });
