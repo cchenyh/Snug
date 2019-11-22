@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.widget.ListView;
 
 import com.example.snugalpha.Adapter.TripAdapter;
-import com.example.snugalpha.Utils.Task;
 import com.example.snugalpha.Utils.Trip;
 
 import java.util.ArrayList;

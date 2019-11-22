@@ -9,8 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AllTripActivity"></activity>
-        <activity android:name=".TrainingActivity" />
+        <activity android:name=".ConclusionActivity"></activity>
+        <activity android:name=".AllTripActivity" />
         <activity android:name=".TaskListActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
