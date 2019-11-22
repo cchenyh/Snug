@@ -5,10 +5,10 @@
     android:layout_height="match_parent">
 
     <com.jjoe64.graphview.GraphView
-        android:id="@+id/completion_quantity_graph"
+        android:id="@+id/achievement_value_graph"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         android:layout_marginTop="50dp"
-        />
+         />
 
 </LinearLayout>
